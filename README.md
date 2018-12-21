@@ -10,5 +10,14 @@ Before: *\<div\>*
   
 After: *\<div id="D12C5766-D195"\>*
 
-__This script uses gsed - in ubuntu modify file to sed, in mac - install gsed.__
-  
+Ubuntu
+=======
+In the script - rename `gsed` to `sed`
+
+Mac
+=======
+Make sure `gsed` is installed
+
+Windows
+=======
+Go get yourself a mac
