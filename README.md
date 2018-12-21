@@ -11,13 +11,13 @@ Before: *\<div\>*
 After: *\<div id="D12C5766-D195"\>*
 
 Ubuntu
-=======
+--------
 In the script - rename `gsed` to `sed`
 
 Mac
-=======
+--------
 Make sure `gsed` is installed
 
 Windows
-=======
+--------
 Go get yourself a mac
