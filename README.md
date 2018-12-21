@@ -5,8 +5,10 @@ __It will append an id to elements even if they alread have one - caution is adv
 
 Usage: ```./generate-ids.sh <recursive_path_to_htmls>```
 
-Before: *<div>*
-After: *<div id="D12C5766-D195">*
+
+Before: *\<div\>*
+  
+After: *\<div id="D12C5766-D195"\>*
 
 __This script uses gsed - in ubuntu modify file to sed, in mac - install gsed.__
   
