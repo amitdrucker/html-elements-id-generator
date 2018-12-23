@@ -6,7 +6,7 @@ fi
 echo 'generating ids for all elements (this may take several minutes)'
 for file in `find $1 -name '*.html'`; do
 	rand=REPLACE_WITH_ID_PLEASE
-	gsed -i 's/<\([^>^ ^\/]\+\)/<\1 id="'$rand'"/g' $file
+	gsed -i 's/<\([^>^ ^\/]\+\)\(\(\(?!id=\).\)*\>\)/<\1 id="'$rand'"\2/g' $file
 done
 while [[ `grep -r 'REPLACE_WITH_ID_PLEASE' $1` ]]; do
 	echo -ne '.'
